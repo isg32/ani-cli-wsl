@@ -16,7 +16,6 @@ sleep 2
 curl "https://raw.githubusercontent.com/pystardust/ani-cli/master/ani-cli" > ani-cli
 
 sudo cp ani-cli /usr/local/bin
-sudo cp mpv.exe /usr/local/bin
 
 shred -fuz ani-cli
 
